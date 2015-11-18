@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 12ef7cbdfe0e143fa858a324456c8979
+guid: 7fcfc8ec24dbb73468c54c41462d472d
 TextureImporter:
   fileIDToRecycleName:
     21300000: PrototypeGreen02x02
@@ -36,6 +36,7 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
@@ -50,20 +51,25 @@ TextureImporter:
     maxTextureSize: 64
     textureFormat: -1
     compressionQuality: 50
+    allowsAlphaSplitting: 0
   - buildTarget: Android
     maxTextureSize: 64
     textureFormat: -1
     compressionQuality: 50
+    allowsAlphaSplitting: 0
   - buildTarget: BlackBerry
     maxTextureSize: 64
     textureFormat: -1
     compressionQuality: 50
+    allowsAlphaSplitting: 0
   - buildTarget: WP8
     maxTextureSize: 64
     textureFormat: -1
     compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
+  assetBundleVariant: 

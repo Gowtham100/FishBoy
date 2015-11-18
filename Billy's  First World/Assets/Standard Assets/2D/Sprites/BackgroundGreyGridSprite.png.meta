@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cbbabe9e292f5604897926494bb38fef
+guid: 7e05dc39285c25148b4ed8a4ef05ae80
 TextureImporter:
   fileIDToRecycleName:
     21300000: PrototypeGrey04x04
@@ -36,6 +36,7 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
@@ -51,3 +52,4 @@ TextureImporter:
   spritePackingTag: 
   userData: 
   assetBundleName: 
+  assetBundleVariant: 

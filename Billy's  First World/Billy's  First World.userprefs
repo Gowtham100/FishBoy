@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\2D\Scripts\EnemyBullet.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\Weapon.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\2D\Scripts\EnemyAI.cs" Line="20" Column="1" />
-      <File FileName="Assets\Standard Assets\2D\Scripts\EnemyBullet.cs" Line="2" Column="15" />
-      <File FileName="Assets\Standard Assets\2D\Scripts\EnemyGun.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\LvlManager.cs" Line="20" Column="30" />
+      <File FileName="Assets\Standard Assets\Scripts\KillPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\Checkpoints.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\Weapon.cs" Line="49" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

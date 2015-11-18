@@ -45,6 +45,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
+     <Compile Include="Assets\Standard Assets\2D\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Standard Assets\2D\Scripts\Controller2.cs" />
+     <Compile Include="Assets\Standard Assets\2D\Scripts\MoveScript.cs" />
+     <Compile Include="Assets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
+     <Compile Include="Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
+     <Compile Include="Assets\Standard Assets\2D\Scripts\Restarter.cs" />
+     <Compile Include="Assets\Standard Assets\2D\Scripts\RobotControllerScript.cs" />
+     <Compile Include="Assets\Standard Assets\2D\Scripts\ShotScript.cs" />
+     <Compile Include="Assets\Standard Assets\2D\Scripts\Weapon.cs" />
      <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
      <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
      <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -73,9 +83,12 @@
      <Compile Include="Assets\Standard Assets\Prefabs\Prefabs\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Checkpoints.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Controller2.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\EnemyBullet.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\EnemyGun.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\KillPlayer.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\LvlManager.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\MoveScript.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Platformer2DUserControl.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\PlatformerCharacter2D.cs" />
@@ -118,10 +131,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>C:/Users/Gowtham100/Documents/FishBoy1/PrototypeFishBoy1/Billy's  First World/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>C:/Users/Gowtham100/Documents/AGDA/FishBoy/Billy's  First World/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.JsonFx">
- <HintPath>C:/Users/Gowtham100/Documents/FishBoy1/PrototypeFishBoy1/Billy's  First World/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ <HintPath>C:/Users/Gowtham100/Documents/AGDA/FishBoy/Billy's  First World/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
