@@ -1,11 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\FishBoy1\PrototypeFishBoy1\Billy's  First World\Assets\Standard Assets\2D\Scripts\Weapon.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\2D\Scripts\EnemyBullet.cs">
     <Files>
-      <File FileName="..\FishBoy1\PrototypeFishBoy1\Billy's  First World\Assets\Standard Assets\2D\Scripts\Weapon.cs" Line="14" Column="18" />
-      <File FileName="..\FishBoy1\PrototypeFishBoy1\Billy's  First World\Assets\Standard Assets\2D\Scripts\ShotScript.cs" Line="1" Column="1" />
-      <File FileName="..\FishBoy1\PrototypeFishBoy1\Billy's  First World\Assets\Standard Assets\2D\Scripts\MoveScript.cs" Line="1" Column="1" />
-      <File FileName="..\FishBoy1\PrototypeFishBoy1\Billy's  First World\Assets\Standard Assets\2D\Scripts\Controller2.cs" Line="74" Column="3" />
+      <File FileName="Assets\Standard Assets\2D\Scripts\EnemyAI.cs" Line="20" Column="1" />
+      <File FileName="Assets\Standard Assets\2D\Scripts\EnemyBullet.cs" Line="2" Column="15" />
+      <File FileName="Assets\Standard Assets\2D\Scripts\EnemyGun.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
