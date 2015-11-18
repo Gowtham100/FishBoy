@@ -2,8 +2,7 @@ using System;
 using UnityEngine;
 
 
-namespace UnityStandardAssets._2D
-{
+
     public class CameraFollow : MonoBehaviour
     {
         public float xMargin = 1f; // Distance in the x axis the player can move before the camera follows.
@@ -71,4 +70,4 @@ namespace UnityStandardAssets._2D
             transform.position = new Vector3(targetX, targetY, transform.position.z);
         }
     }
-}
+
