@@ -1,5 +1,3 @@
-Add your name here:
-
-Jeanie
-JAYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
-Gowtham
+IGNORE SCRIPTS:
+EnemyBullet
+EnemyGun
