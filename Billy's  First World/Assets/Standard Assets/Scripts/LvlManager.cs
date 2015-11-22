@@ -20,5 +20,10 @@ public class LvlManager : MonoBehaviour {
 	public void RespawnPlayer(){
 		Debug.Log ("Respawn here!!!!");
 		player.transform.position = currentCheckpoint.transform.position;
+
+		// make bubble big and set health
+		player.transform.Find("Bubble").localScale = new Vector3(4,4,0);
+		player.life = 4;
+
 	}
 }

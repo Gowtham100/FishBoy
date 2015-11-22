@@ -4,6 +4,9 @@ using System.Collections;
 public class Controller2 : MonoBehaviour {
 	public float maxSpeed = 10f;
 	public bool facingRight = true;
+
+	public int life = 4;
+
 	
 	Animator anim;
 	
@@ -74,5 +77,7 @@ public class Controller2 : MonoBehaviour {
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+
 }
 
