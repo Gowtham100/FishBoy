@@ -45,16 +45,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
-     <Compile Include="Assets\Standard Assets\2D\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Standard Assets\2D\Scripts\Controller2.cs" />
-     <Compile Include="Assets\Standard Assets\2D\Scripts\MoveScript.cs" />
-     <Compile Include="Assets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
-     <Compile Include="Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
-     <Compile Include="Assets\Standard Assets\2D\Scripts\Restarter.cs" />
-     <Compile Include="Assets\Standard Assets\2D\Scripts\RobotControllerScript.cs" />
-     <Compile Include="Assets\Standard Assets\2D\Scripts\ShotScript.cs" />
-     <Compile Include="Assets\Standard Assets\2D\Scripts\Weapon.cs" />
      <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
      <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
      <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -81,10 +71,12 @@
      <Compile Include="Assets\Standard Assets\Prefabs\Prefabs\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\Standard Assets\Prefabs\Prefabs\Tiled2Unity\Scripts\Runtime\TiledInitialShaderProperties.cs" />
      <Compile Include="Assets\Standard Assets\Prefabs\Prefabs\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\BillyShooting.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Checkpoints.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Controller2.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Controller3.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\EnemyBullet.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\EnemyGun.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\KillPlayer.cs" />
