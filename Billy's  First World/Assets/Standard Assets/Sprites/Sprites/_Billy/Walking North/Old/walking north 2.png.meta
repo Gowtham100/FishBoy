@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: ac77ee394ac99254a8b2961dfbdf31e7
+timeCreated: 1448240830
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: walking north 2_0
+    21300002: walking north 2_1
+    21300004: walking north 2_2
+    21300006: walking north 2_3
+    21300008: walking north 2_4
+    21300010: walking north 2_5
+    21300012: walking north 2_6
+    21300014: walking north 2_7
+    21300016: walking north 2_8
+    21300018: walking north 2_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: walking north 2_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 73
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking north 2_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 69
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking north 2_2
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 70
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking north 2_3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 71
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking north 2_4
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 70
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking north 2_5
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 70
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking north 2_6
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 72
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking north 2_7
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 73
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking north 2_8
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 72
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking north 2_9
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 70
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

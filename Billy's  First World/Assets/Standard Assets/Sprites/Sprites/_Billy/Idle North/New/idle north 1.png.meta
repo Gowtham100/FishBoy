@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: fca82081ae3ff2948ada4258907128b3
+timeCreated: 1448672770
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: idle north 1_0
+    21300002: idle north 1_1
+    21300004: idle north 1_2
+    21300006: idle north 1_3
+    21300008: idle north 1_4
+    21300010: idle north 1_5
+    21300012: idle north 1_6
+    21300014: idle north 1_7
+    21300016: idle north 1_8
+    21300018: idle north 1_9
+    21300020: idle north 1_10
+    21300022: idle north 1_11
+    21300024: idle north 1_12
+    21300026: idle north 1_13
+    21300028: idle north 1_14
+    21300030: idle north 1_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: idle north 1_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 83
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 83
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 83
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_3
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 83
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_4
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 83
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_5
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 83
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_6
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 83
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_7
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 83
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_8
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 83
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_9
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 83
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_10
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 83
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_11
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 83
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_12
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 83
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_13
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 83
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_14
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 83
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle north 1_15
+      rect:
+        serializedVersion: 2
+        x: 2679
+        y: 83
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

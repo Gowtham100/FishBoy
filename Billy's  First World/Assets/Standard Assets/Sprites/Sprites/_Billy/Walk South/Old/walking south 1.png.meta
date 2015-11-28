@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: b22e75073c253a34c870028f9f2c6cff
+timeCreated: 1448242738
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: walking south 1_0
+    21300002: walking south 1_1
+    21300004: walking south 1_2
+    21300006: walking south 1_3
+    21300008: walking south 1_4
+    21300010: walking south 1_5
+    21300012: walking south 1_6
+    21300014: walking south 1_7
+    21300016: walking south 1_8
+    21300018: walking south 1_9
+    21300020: walking south 1_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: walking south 1_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 79
+        width: 69
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking south 1_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 78
+        width: 69
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking south 1_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 77
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking south 1_3
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 77
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking south 1_4
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 78
+        width: 69
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking south 1_5
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 79
+        width: 69
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking south 1_6
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 80
+        width: 69
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking south 1_7
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 78
+        width: 69
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking south 1_8
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 77
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking south 1_9
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 77
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking south 1_10
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 78
+        width: 69
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
