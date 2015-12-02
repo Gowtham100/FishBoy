@@ -12,6 +12,8 @@ GameObject:
   - 95: {fileID: 9524966}
   - 114: {fileID: 11470746}
   - 114: {fileID: 11406900}
+  - 50: {fileID: 5024418}
+  - 61: {fileID: 6112848}
   m_Layer: 0
   m_Name: Billy
   m_TagString: Untagged
@@ -26,11 +28,40 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 150974}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.56047916, y: 1.8564651, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 13.6000004, y: -31.2999992, z: -.5}
+  m_LocalScale: {x: 2, y: 2, z: 2.21000004}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5024418
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150974}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &6112848
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150974}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: .00996637344, y: 0}
+  serializedVersion: 2
+  m_Size: {x: .649932563, y: .829999983}
 --- !u!95 &9524966
 Animator:
   serializedVersion: 3
