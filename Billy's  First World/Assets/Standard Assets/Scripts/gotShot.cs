@@ -19,10 +19,11 @@ public class gotShot : MonoBehaviour {
 		bubble = this.transform.Find("Bubble").gameObject;
 //		Instantiate (bubble, this.transform.position, this.transform.rotation);
 //		transform.localScale += new Vector3(0.2F, 0.2F, 0);
-		radius = new int[3]; //radius [0] has smallest radius
+		radius = new int[4]; //radius [0] has smallest radius
 		radius [0] = 0;
 		radius [1] = 2;
 		radius [2] = 3;
+		radius [3] = 4;
 
 		player = GetComponent<Controller3>();
 		levelmanager = FindObjectOfType<LvlManager> ();
@@ -37,10 +38,12 @@ public class gotShot : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if(other.gameObject.CompareTag ("enemybullet")){
-			if(player.life == 1){
+			if(player.life == 0){
 				levelmanager.RespawnPlayer(); //respawn
+				player.life = 3;
+				bubble.transform.localScale = new Vector3(radius[player.life],radius[player.life],0);
 			} else{
-				bubble.transform.localScale = new Vector3(radius[player.life-2],radius[player.life-2],0);
+				bubble.transform.localScale = new Vector3(radius[player.life-1],radius[player.life-1],0);
 				player.life--;
 			}
 

@@ -4,11 +4,11 @@ using System.Collections;
 public class LvlManager : MonoBehaviour {
 	
 	public GameObject currentCheckpoint;
-	public Controller2 player;
+	public Controller3 player;
 	// Use this for initialization
 	void Start () {
 		
-		player = FindObjectOfType<Controller2> ();
+		player = FindObjectOfType<Controller3> ();
 		
 	}
 	
