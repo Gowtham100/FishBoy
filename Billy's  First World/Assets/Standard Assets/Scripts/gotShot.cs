@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(Controller2))]
+[RequireComponent(typeof(Controller3))]
 
 public class gotShot : MonoBehaviour {
 
@@ -10,7 +10,7 @@ public class gotShot : MonoBehaviour {
 	public GameObject bubble;
 
 	//import component
-	Controller2 player;
+	Controller3 player;
 	LvlManager levelmanager;
 
 
@@ -24,7 +24,7 @@ public class gotShot : MonoBehaviour {
 		radius [1] = 2;
 		radius [2] = 3;
 
-		player = GetComponent<Controller2>();
+		player = GetComponent<Controller3>();
 		levelmanager = FindObjectOfType<LvlManager> ();
 
 	}
