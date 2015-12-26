@@ -7,23 +7,25 @@ public class generateFlowerShots : MonoBehaviour {
 	public float fireRate;
 
 	public float coolDown; //flower enemy must shoot 3 times than cool down for 1 frame
-
+	public float range; //range in which flower reacts to player
 	
 	private float nextFire;
+	private GameObject player;
+
 
 	void Start () {
 		coolDown = 3;
+		player = GameObject.FindGameObjectWithTag ("Player");
 
 	}
 
 	// Update is called once per frame
 	void Update () {
-		if (Time.time > nextFire && coolDown != 0) {
+		float distance = Vector2.Distance (player.transform.position, this.transform.position); //find distance between player and enemy
+
+		if (Time.time > nextFire && coolDown != 0 && distance < range) {
 			coolDown--;
 			nextFire = Time.time + fireRate;
-
-			// update player every frame
-			GameObject player = GameObject.FindGameObjectWithTag ("Player");
 
 			// get the direction of shooting
 			Vector3 vectorToTarget = player.transform.position - this.transform.position;
