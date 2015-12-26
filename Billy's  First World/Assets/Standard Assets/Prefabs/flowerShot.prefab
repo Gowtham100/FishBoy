@@ -73,8 +73,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shot: {fileID: 111682, guid: a6ef4b57438424a45975db7f2488780d, type: 2}
-  fireRate: 1
+  fireRate: .800000012
   coolDown: 0
+  range: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
