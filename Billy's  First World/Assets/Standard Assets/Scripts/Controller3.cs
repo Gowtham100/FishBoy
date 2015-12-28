@@ -5,6 +5,9 @@ public class Controller3 : MonoBehaviour {
 
 	Animator anim;
 	public float maxSpeed = 0.0005f;
+
+	public int life = 4;
+
 	// Use this for initialization
 	void Start () {
 
