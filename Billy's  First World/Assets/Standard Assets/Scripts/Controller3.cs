@@ -6,7 +6,8 @@ public class Controller3 : MonoBehaviour {
 	Animator anim;
 	public float maxSpeed = 0.0005f;
 
-	public int life = 4;
+
+	public int life = 50;
 
 	// Use this for initialization
 	void Start () {
@@ -33,6 +34,24 @@ public class Controller3 : MonoBehaviour {
 			anim.SetFloat("Y", input_y);
 
 			transform.position += new Vector3(input_x, input_y, 0).normalized * Time.deltaTime * maxSpeed;
+
+		}
+
+
+
+		//shooting
+		bool isShooting = Input.GetButton ("Fire1");
+		anim.SetBool ("isShooting", isShooting);
+
+ 
+		//shoot |= Input.GetButtonDown("Fire2");
+
+		if (isShooting)
+		{
+
+			anim.SetFloat("X", input_x);
+			anim.SetFloat("Y", input_y);
+			BillyShooting weapon = GetComponent<BillyShooting>();
 
 		}
 

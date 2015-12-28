@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//This script reduce bubble size according to the life of the player
+
 [RequireComponent(typeof(Controller3))]
+[RequireComponent(typeof(Shot))]
 
 public class gotShot : MonoBehaviour {
-
-	public int[] radius;
 
 	public GameObject bubble;
 
@@ -17,12 +18,9 @@ public class gotShot : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		bubble = this.transform.Find("Bubble").gameObject;
-//		Instantiate (bubble, this.transform.position, this.transform.rotation);
-//		transform.localScale += new Vector3(0.2F, 0.2F, 0);
-		radius = new int[3]; //radius [0] has smallest radius
-		radius [0] = 0;
-		radius [1] = 2;
-		radius [2] = 3;
+
+		//init bubble with radius 2
+		bubble.transform.localScale = new Vector3(2,2,0);
 
 		player = GetComponent<Controller3>();
 		levelmanager = FindObjectOfType<LvlManager> ();
@@ -36,14 +34,15 @@ public class gotShot : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D other)
 	{
-		if(other.gameObject.CompareTag ("enemybullet")){
-			if(player.life == 1){
-				levelmanager.RespawnPlayer(); //respawn
-			} else{
-				bubble.transform.localScale = new Vector3(radius[player.life-2],radius[player.life-2],0);
-				player.life--;
-			}
+		if(player.life <= 0){
+			levelmanager.RespawnPlayer(); //respawn
+			player.life = 50;
+			bubble.transform.localScale = new Vector3(2,2,0);
+		}
 
+
+		if(other.gameObject.CompareTag ("enemybullet")){
+			bubble.transform.localScale = new Vector3(((player.life - 50F)/100F*2F)+2F,((player.life - 50F)/100F*2F)+2F,0);
 		}
 	}
 }

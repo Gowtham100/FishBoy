@@ -13,7 +13,7 @@ public class generateShots : MonoBehaviour {
 		if (Time.time > nextFire) {
 			nextFire = Time.time + fireRate;
 
-			// update player every frame
+			// update player's position every frame
 			GameObject player = GameObject.FindGameObjectWithTag("Player");
 
 			// get the direction of shooting
