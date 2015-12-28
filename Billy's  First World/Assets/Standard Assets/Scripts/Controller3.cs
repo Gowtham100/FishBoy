@@ -48,6 +48,7 @@ public class Controller3 : MonoBehaviour {
 
 		if (isShooting)
 		{
+			Debug.Log ("shooting");
 			anim.SetFloat("X", input_x);
 			anim.SetFloat("Y", input_y);
 			BillyShooting weapon = GetComponent<BillyShooting>();

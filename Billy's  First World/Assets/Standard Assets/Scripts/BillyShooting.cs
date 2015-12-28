@@ -14,12 +14,16 @@ public class BillyShooting : MonoBehaviour {
 	private float nextFire;
 
 	Animator anim;
+
+	Controller3 player;
 	
 	
 	void Start()
 	{
+		fireRate = 0.5f;
+
 		anim = GetComponent<Animator>();
-		fireRate = 0.5f;	
+		player = GetComponent<Controller3> ();
 
 	}
 	
@@ -32,18 +36,21 @@ public class BillyShooting : MonoBehaviour {
 
 			
 
-			//if (anim.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Walking")){
+			//if (anim.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Shooting")){
 
 
 				if(curX == 1 && curY == 0){ //facing east
-
 					Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+					player.life--;
 				} else if(curX == -1 && curY == 0){ //facing west
 					Instantiate(shot, new Vector3(shotSpawn.position.x-2f, shotSpawn.position.y, shotSpawn.position.z), Quaternion.Euler(0, 180, 0));
+					player.life--;
 				} else if(curX == 0 && curY == 1){ //facing north
 					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y+1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 90));
+					player.life--;
 				} else if(curX == 0 && curY == -1){ //facing south
 					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y-1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 270));
+					player.life--;
 				}
 			//}
 		}
