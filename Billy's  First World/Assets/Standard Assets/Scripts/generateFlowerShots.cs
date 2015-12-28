@@ -15,6 +15,7 @@ public class generateFlowerShots : MonoBehaviour {
 
 	void Start () {
 		coolDown = 3;
+		range = 10;
 		player = GameObject.FindGameObjectWithTag ("Player");
 
 	}
