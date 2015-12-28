@@ -6,13 +6,13 @@ public class Shot : MonoBehaviour {
 	public float speed;
 	public int damage;
 
-	public Controller3 player;
+	private Controller3 player;
 
 
 	// Use this for initialization
 	// this method is executed when we instantiated the laser object
 	void Start () {
-		damage = 10;
+		damage = 2;
 		speed = 15;
 		// transform.forward is to make it move forward (along x axis in this case)
 		GetComponent<Rigidbody2D> ().velocity = transform.right * speed;
