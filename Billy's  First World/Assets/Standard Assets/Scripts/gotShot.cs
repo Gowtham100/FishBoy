@@ -40,7 +40,6 @@ public class gotShot : MonoBehaviour {
 			bubble.transform.localScale = new Vector3(2,2,0);
 		}
 
-
 		if(other.gameObject.CompareTag ("enemybullet")){
 			bubble.transform.localScale = new Vector3(((player.life - 50F)/100F*2F)+2F,((player.life - 50F)/100F*2F)+2F,0);
 		}
