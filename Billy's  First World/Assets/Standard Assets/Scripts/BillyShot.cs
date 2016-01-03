@@ -20,7 +20,7 @@ public class BillyShot : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D other)
 	{
-		if (other.gameObject.CompareTag ("Enemy")) {
+		if (other.tag == "Enemy") {
 			Destroy (gameObject);
 			other.GetComponent<Enemy>().life--;
 

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class LvlManager : MonoBehaviour {
 	
-	public GameObject currentCheckpoint;
+	public GameObject playerRespawn;
 	public Controller3 player;
 
 	public GameObject flowerEnemy; //update this as more enemies are created
@@ -29,7 +29,7 @@ public class LvlManager : MonoBehaviour {
 		enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
 		Debug.Log ("Respawn here!!!!");
-		player.transform.position = currentCheckpoint.transform.position;
+		player.transform.position = playerRespawn.transform.position;
 
 		for (int i = 0; i < enemies.Length; i ++) {
 			Destroy(enemies[i]);

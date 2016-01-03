@@ -46,14 +46,14 @@ public class Controller3 : MonoBehaviour {
  
 		//shoot |= Input.GetButtonDown("Fire2");
 
-		if (isShooting)
-		{
-
-			anim.SetFloat("X", input_x);
-			anim.SetFloat("Y", input_y);
-			BillyShooting weapon = GetComponent<BillyShooting>();
-
-		}
+//		if (isShooting)
+//		{
+//
+//			anim.SetFloat("X", input_x);
+//			anim.SetFloat("Y", input_y);
+//			BillyShooting weapon = GetComponent<BillyShooting>();
+//
+//		}
 
 	
 	}
