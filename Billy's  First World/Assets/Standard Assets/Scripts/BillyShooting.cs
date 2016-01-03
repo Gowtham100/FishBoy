@@ -36,7 +36,7 @@ public class BillyShooting : MonoBehaviour {
 
 			
 
-			//if (anim.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Shooting")){
+			if (player.enableControl) {
 
 
 				if(curX == 1 && curY == 0){ //facing east
@@ -52,7 +52,9 @@ public class BillyShooting : MonoBehaviour {
 					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y-1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 270));
 					player.life--;
 				}
-			//}
+
+			}
+		
 		}
 	}
 

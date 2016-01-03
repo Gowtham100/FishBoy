@@ -19,11 +19,11 @@ public class gotShot : MonoBehaviour {
 	void Start () {
 		bubble = this.transform.Find("Bubble").gameObject;
 
-		//init bubble with radius 2
-		bubble.transform.localScale = new Vector3(2,2,0);
-
 		player = GetComponent<Controller3>();
 		levelmanager = FindObjectOfType<LvlManager> ();
+
+		//init bubble with radius
+		bubble.transform.localScale = new Vector3(player.radius,player.radius,0);
 
 	}
 	
@@ -41,7 +41,8 @@ public class gotShot : MonoBehaviour {
 		}
 
 		if(other.tag == "enemybullet"){
-			bubble.transform.localScale = new Vector3(((player.life - 50F)/100F*2F)+2F,((player.life - 50F)/100F*2F)+2F,0);
+			bubble.transform.localScale = 
+				new Vector3(((player.life - 50F)/100F*player.radius)+player.radius,((player.life - 50F)/100F*player.radius)+player.radius,0);
 		}
 	}
 

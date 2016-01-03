@@ -26,26 +26,30 @@ public class generateFlowerShots : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		float distance = Vector2.Distance (player.transform.position, this.transform.position); //find distance between player and enemy
 
-		if (Time.time > nextFire && currentCoolDown != 0 && distance < range) {
-			currentCoolDown--;
-			nextFire = Time.time + fireRate;
-			anim.SetBool ("isShooting", true);
+		if (player.GetComponent<Controller3> ().life >= 0) { //if player is allive
+			float distance = Vector2.Distance (player.transform.position, this.transform.position); //find distance between player and enemy
 
-			// get the direction of shooting
-			Vector3 vectorToTarget = player.transform.position - this.transform.position;
-			float angle = (float)Mathf.Atan2 (vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg;
-			Quaternion direction = Quaternion.AngleAxis (angle, Vector3.forward);
+			if (Time.time > nextFire && currentCoolDown != 0 && distance < range) {
+				currentCoolDown--;
+				nextFire = Time.time + fireRate;
+				anim.SetBool ("isShooting", true);
 
-			//instantiate bullet
-			Instantiate (shot, this.transform.position, direction);
+				// get the direction of shooting
+				Vector3 vectorToTarget = player.transform.position - this.transform.position;
+				float angle = (float)Mathf.Atan2 (vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg;
+				Quaternion direction = Quaternion.AngleAxis (angle, Vector3.forward);
+
+				//instantiate bullet
+				Instantiate (shot, this.transform.position, direction);
 
 
-		}else if (Time.time > nextFire && currentCoolDown == 0) {
-			anim.SetBool ("isShooting", false);
-			nextFire = Time.time + fireRate;
-			currentCoolDown = coolDown;
+			} else if (Time.time > nextFire && currentCoolDown == 0) {
+				anim.SetBool ("isShooting", false);
+				nextFire = Time.time + fireRate;
+				currentCoolDown = coolDown;
+			}
+
 		}
 
 

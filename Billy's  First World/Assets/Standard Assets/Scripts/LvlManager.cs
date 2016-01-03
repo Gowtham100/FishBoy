@@ -28,7 +28,7 @@ public class LvlManager : MonoBehaviour {
 		respawns = GameObject.FindGameObjectsWithTag("Respawn");
 		enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
-		Debug.Log ("Respawn here!!!!");
+		//Debug.Log ("Respawn here!!!!");
 		player.respawn ();
 		player.transform.position = playerRespawn.transform.position;
 
