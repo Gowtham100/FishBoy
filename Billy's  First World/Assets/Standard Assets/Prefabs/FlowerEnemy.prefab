@@ -8,10 +8,10 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 407394}
-  - 61: {fileID: 6104444}
   - 114: {fileID: 11475560}
   - 212: {fileID: 21230698}
   - 95: {fileID: 9569876}
+  - 60: {fileID: 6007284}
   m_Layer: 8
   m_Name: FlowerEnemy
   m_TagString: Enemy
@@ -93,8 +93,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 140026}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!61 &6104444
-BoxCollider2D:
+--- !u!60 &6007284
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -104,8 +104,31 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.27999997, y: 1.27999997}
+  m_Points:
+    m_Paths:
+    - - {x: .455000013, y: -.219999999}
+      - {x: .63499999, y: -.0900000036}
+      - {x: .63499999, y: .00999999978}
+      - {x: .605000019, y: .100000001}
+      - {x: .514999986, y: .189999998}
+      - {x: .314999998, y: .209999993}
+      - {x: .314480394, y: .309999496}
+      - {x: .144307464, y: .541889906}
+      - {x: -.0450000018, y: .589999974}
+      - {x: -.144999996, y: .529999971}
+      - {x: -.245000005, y: .419999987}
+      - {x: -.284999996, y: .289999992}
+      - {x: -.395000011, y: .170000002}
+      - {x: -.524999976, y: .150000006}
+      - {x: -.63499999, y: -.00999999978}
+      - {x: -.63499999, y: -.159999996}
+      - {x: -.455000013, y: -.270000011}
+      - {x: -.205173433, y: -.294534147}
+      - {x: -.134479806, y: -.580378413}
+      - {x: .075000003, y: -.589999974}
+      - {x: .0949999988, y: -.569999993}
+      - {x: .215000004, y: -.389999986}
+      - {x: .254999995, y: -.25999999}
 --- !u!95 &9569876
 Animator:
   serializedVersion: 3
@@ -149,7 +172,7 @@ MonoBehaviour:
   shot: {fileID: 111682, guid: a6ef4b57438424a45975db7f2488780d, type: 2}
   fireRate: .899999976
   coolDown: 3
-  range: 7
+  range: 10
   currentCoolDown: 0
 --- !u!212 &21230698
 SpriteRenderer:
