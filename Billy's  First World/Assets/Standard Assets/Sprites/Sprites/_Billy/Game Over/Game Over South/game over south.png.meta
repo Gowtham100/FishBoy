@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 84ebdcd1d42f142f79dfe624cb871047
+timeCreated: 1451800821
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: game over south_0
+    21300002: game over south_1
+    21300004: game over south_2
+    21300006: game over south_3
+    21300008: game over south_4
+    21300010: game over south_5
+    21300012: game over south_6
+    21300014: game over south_7
+    21300016: game over south_8
+    21300018: game over south_9
+    21300020: game over south_10
+    21300022: game over south_11
+    21300024: game over south_12
+    21300026: game over south_13
+    21300028: game over south_14
+    21300030: game over south_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: game over south_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 79
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 77
+        width: 64
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_2
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 77
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_3
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 77
+        width: 66
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_4
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 74
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_5
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 20
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_6
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 20
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_7
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 19
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_8
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 14
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_9
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 14
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_10
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 14
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_11
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 14
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_12
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 13
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_13
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 14
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_14
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 13
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over south_15
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 14
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

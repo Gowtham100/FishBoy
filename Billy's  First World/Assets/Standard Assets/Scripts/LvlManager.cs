@@ -29,6 +29,7 @@ public class LvlManager : MonoBehaviour {
 		enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
 		Debug.Log ("Respawn here!!!!");
+		player.respawn ();
 		player.transform.position = playerRespawn.transform.position;
 
 		for (int i = 0; i < enemies.Length; i ++) {

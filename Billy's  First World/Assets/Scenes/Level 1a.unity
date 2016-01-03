@@ -167,7 +167,7 @@ Transform:
   - {fileID: 992967773}
   - {fileID: 2073378521}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!1001 &348675256
 Prefab:
   m_ObjectHideFlags: 0
@@ -448,11 +448,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 879641211}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.8000002, y: -32.2000008, z: -10}
+  m_LocalPosition: {x: 20, y: -45, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!114 &879641217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -742,7 +742,7 @@ Transform:
   - {fileID: 1247321539}
   - {fileID: 1786397320}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
 --- !u!4 &1649857122 stripped
 Transform:
   m_PrefabParentObject: {fileID: 473582, guid: 7cf1a951d34494912b7cc40b516771b6, type: 2}
@@ -784,11 +784,24 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 424774, guid: 1aaebb805bc5f424b8072db15f003ede, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11406900, guid: 1aaebb805bc5f424b8072db15f003ede, type: 2}
       propertyPath: fireRate
       value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 21249632, guid: 1aaebb805bc5f424b8072db15f003ede, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 001f58754549b434db0beff02c9ee791,
+        type: 3}
+    - target: {fileID: 448260, guid: 1aaebb805bc5f424b8072db15f003ede, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 454510, guid: 1aaebb805bc5f424b8072db15f003ede, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1aaebb805bc5f424b8072db15f003ede, type: 2}
@@ -1059,7 +1072,7 @@ Transform:
   m_LocalScale: {x: 67, y: 57, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1001 &2073378520
 Prefab:
   m_ObjectHideFlags: 0

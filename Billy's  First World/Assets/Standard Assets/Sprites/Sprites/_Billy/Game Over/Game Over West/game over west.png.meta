@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 64df697f0198644658c6ea851ba26122
+timeCreated: 1451803120
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: game over west_0
+    21300002: game over west_1
+    21300004: game over west_2
+    21300006: game over west_3
+    21300008: game over west_4
+    21300010: game over west_5
+    21300012: game over west_6
+    21300014: game over west_7
+    21300016: game over west_8
+    21300018: game over west_9
+    21300020: game over west_10
+    21300022: game over west_11
+    21300024: game over west_12
+    21300026: game over west_13
+    21300028: game over west_14
+    21300030: game over west_15
+    21300032: game over west_16
+    21300034: game over west_17
+    21300036: game over west_18
+    21300038: game over west_19
+    21300040: game over west_20
+    21300042: game over west_21
+    21300044: game over west_22
+    21300046: game over west_23
+    21300048: game over west_24
+    21300050: game over west_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: game over west_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 78
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 77
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_2
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 76
+        width: 65
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_3
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 136
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_4
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 75
+        width: 65
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_5
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_6
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 136
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_7
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 136
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_8
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 136
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_9
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 68
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_10
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 136
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_11
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 136
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_12
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 136
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_13
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 136
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_14
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 136
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_15
+      rect:
+        serializedVersion: 2
+        x: 2501
+        y: 136
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_16
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 68
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_17
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 68
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_18
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 68
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_19
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 69
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_20
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 68
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_21
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 68
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_22
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 68
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_23
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 68
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_24
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 68
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over west_25
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 68
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

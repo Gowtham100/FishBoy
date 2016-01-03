@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: f6d3d0fb6cba54d04a45e367a13baf02
+timeCreated: 1451800803
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: game over north_0
+    21300002: game over north_1
+    21300004: game over north_2
+    21300006: game over north_3
+    21300008: game over north_4
+    21300010: game over north_5
+    21300012: game over north_6
+    21300014: game over north_7
+    21300016: game over north_8
+    21300018: game over north_9
+    21300020: game over north_10
+    21300022: game over north_11
+    21300024: game over north_12
+    21300026: game over north_13
+    21300028: game over north_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: game over north_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 82
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 82
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 79
+        width: 63
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_3
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 78
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_4
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 82
+        width: 55
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_5
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 82
+        width: 56
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_6
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 82
+        width: 59
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_7
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 82
+        width: 58
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_8
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 82
+        width: 59
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_9
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 82
+        width: 59
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_10
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 84
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_11
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 84
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_12
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 84
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_13
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 84
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over north_14
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 84
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
