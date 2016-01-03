@@ -42,14 +42,26 @@ public class BillyShooting : MonoBehaviour {
 				if(curX == 1 && curY == 0){ //facing east
 					Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
 					player.life--;
-				} else if(curX == -1 && curY == 0){ //facing west
-					Instantiate(shot, new Vector3(shotSpawn.position.x-2f, shotSpawn.position.y, shotSpawn.position.z), Quaternion.Euler(0, 180, 0));
+				} else if(curX == 1 && curY == 1){ //facing north east
+					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y+1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 45));
 					player.life--;
 				} else if(curX == 0 && curY == 1){ //facing north
 					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y+1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 90));
 					player.life--;
+				} else if(curX == -1 && curY == 1){ //facing north west
+					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y+1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 135));
+					player.life--;
+				} else if(curX == -1 && curY == 0){ //facing west
+					Instantiate(shot, new Vector3(shotSpawn.position.x-2f, shotSpawn.position.y, shotSpawn.position.z), Quaternion.Euler(0, 0, 180));
+					player.life--;
+				} else if(curX == -1 && curY == -1){ //facing south west
+					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y+1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 225));
+					player.life--;
 				} else if(curX == 0 && curY == -1){ //facing south
 					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y-1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 270));
+					player.life--;
+				}  else if(curX == 1 && curY == -1){ //facing south east
+					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y-1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 315));
 					player.life--;
 				}
 
