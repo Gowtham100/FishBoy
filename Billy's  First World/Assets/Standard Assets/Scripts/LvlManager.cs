@@ -4,10 +4,10 @@ using System.Collections.Generic;
 
 public class LvlManager : MonoBehaviour {
 	
-	public GameObject currentCheckpoint;
+	public GameObject playerRespawn;
 	public Controller3 player;
 
-	public GameObject flowerEnemy;
+	public GameObject flowerEnemy; //update this as more enemies are created
 
 	public GameObject[] respawns;
 	public GameObject[] enemies;
@@ -15,8 +15,7 @@ public class LvlManager : MonoBehaviour {
 	void Start () {
 		
 		player = FindObjectOfType<Controller3> ();
-		respawns = GameObject.FindGameObjectsWithTag("Respawn");
-		enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
 		
 	}
 	
@@ -26,15 +25,21 @@ public class LvlManager : MonoBehaviour {
 	}
 	
 	public void RespawnPlayer(){
+		respawns = GameObject.FindGameObjectsWithTag("Respawn");
+		enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
 		Debug.Log ("Respawn here!!!!");
-		player.transform.position = currentCheckpoint.transform.position;
+		player.respawn ();
+		player.transform.position = playerRespawn.transform.position;
 
 		for (int i = 0; i < enemies.Length; i ++) {
 			Destroy(enemies[i]);
 		}
 
 		for(int i = 0 ; i < respawns.Length; i ++){
-			Instantiate(flowerEnemy, respawns[i].transform.position, respawns[i].transform.rotation);
+			if (respawns[i].GetComponent<Checkpoints>().type.Equals("Flower")){
+				Instantiate(flowerEnemy, respawns[i].transform.position, respawns[i].transform.rotation);
+			}
 		}
 
 	}

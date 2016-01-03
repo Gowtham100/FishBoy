@@ -20,7 +20,7 @@ public class BillyShooting : MonoBehaviour {
 	
 	void Start()
 	{
-		fireRate = 0.5f;
+
 
 		anim = GetComponent<Animator>();
 		player = GetComponent<Controller3> ();
@@ -29,7 +29,7 @@ public class BillyShooting : MonoBehaviour {
 	
 	void FixedUpdate()
 	{
-		if ( Input.GetButton("Fire1") && Time.time > nextFire) {
+		if ( (Input.GetButton("Fire1") || Input.GetButton("Fire2")||Input.GetButton("Fire3")) && Time.time > nextFire) {
 			nextFire = Time.time + fireRate;
 			float curX = anim.GetFloat("X");
 			float curY = anim.GetFloat("Y");

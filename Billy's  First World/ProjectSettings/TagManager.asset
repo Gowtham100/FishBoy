@@ -9,13 +9,11 @@ TagManager:
   - Enemy
   - Wall
   - Obstacle
-  - Bullet
   - BombPickup
   - ExplosionFX
   - HealthBar
   - enemybullet
   - bullet
-  - enemy
   layers:
   - Default
   - TransparentFX
@@ -25,11 +23,11 @@ TagManager:
   - UI
   - 
   - 
-  - Obstacle
-  - Player
-  - Enemies
-  - Pickups
-  - Ground
+  - BlockingLayer
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
