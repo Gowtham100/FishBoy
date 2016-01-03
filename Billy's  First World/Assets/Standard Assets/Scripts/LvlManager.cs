@@ -36,7 +36,9 @@ public class LvlManager : MonoBehaviour {
 		}
 
 		for(int i = 0 ; i < respawns.Length; i ++){
-			Instantiate(flowerEnemy, respawns[i].transform.position, respawns[i].transform.rotation);
+			if (respawns[i].GetComponent<Checkpoints>().type.Equals("Flower")){
+				Instantiate(flowerEnemy, respawns[i].transform.position, respawns[i].transform.rotation);
+			}
 		}
 
 	}
