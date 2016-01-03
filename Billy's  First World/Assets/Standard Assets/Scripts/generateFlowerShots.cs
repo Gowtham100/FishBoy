@@ -31,9 +31,9 @@ public class generateFlowerShots : MonoBehaviour {
 			float distance = Vector2.Distance (player.transform.position, this.transform.position); //find distance between player and enemy
 
 			if (Time.time > nextFire && currentCoolDown != 0 && distance < range) {
+				anim.SetBool ("isShooting", true);
 				currentCoolDown--;
 				nextFire = Time.time + fireRate;
-				anim.SetBool ("isShooting", true);
 
 				// get the direction of shooting
 				Vector3 vectorToTarget = player.transform.position - this.transform.position;
@@ -48,6 +48,8 @@ public class generateFlowerShots : MonoBehaviour {
 				anim.SetBool ("isShooting", false);
 				nextFire = Time.time + fireRate;
 				currentCoolDown = coolDown;
+			} else if (distance < range){
+				anim.SetBool ("isShooting", false);
 			}
 
 		}
