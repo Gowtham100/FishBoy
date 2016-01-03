@@ -5,17 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
-  - Crate
   - Enemy
   - Wall
   - Obstacle
-  - Bullet
-  - BombPickup
-  - ExplosionFX
   - HealthBar
   - enemybullet
   - bullet
-  - enemy
+  - Boundary
   layers:
   - Default
   - TransparentFX
@@ -25,11 +21,11 @@ TagManager:
   - UI
   - 
   - 
-  - Obstacle
-  - Player
-  - Enemies
-  - Pickups
-  - Ground
+  - BlockingLayer
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

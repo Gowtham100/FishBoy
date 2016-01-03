@@ -31,6 +31,10 @@ ModelImporter:
     11400002: mesh_[01]_[00]
     11400004: mesh_[02]_[00]
     11400006: mesh_[03]_[00]
+    11400008: mesh_[00]_[00]
+    11400010: mesh_[01]_[00]
+    11400012: mesh_[02]_[00]
+    11400014: mesh_[03]_[00]
   materials:
     importMaterials: 0
     materialName: 0

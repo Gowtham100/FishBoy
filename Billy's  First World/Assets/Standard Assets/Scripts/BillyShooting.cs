@@ -20,7 +20,7 @@ public class BillyShooting : MonoBehaviour {
 	
 	void Start()
 	{
-		fireRate = 0.5f;
+
 
 		anim = GetComponent<Animator>();
 		player = GetComponent<Controller3> ();
@@ -29,30 +29,44 @@ public class BillyShooting : MonoBehaviour {
 	
 	void FixedUpdate()
 	{
-		if ( Input.GetButton("Fire1") && Time.time > nextFire) {
+		if ( (Input.GetButton("Fire1") || Input.GetButton("Fire2")||Input.GetButton("Fire3")) && Time.time > nextFire) {
 			nextFire = Time.time + fireRate;
 			float curX = anim.GetFloat("X");
 			float curY = anim.GetFloat("Y");
 
 			
 
-			//if (anim.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Shooting")){
+			if (player.enableControl) {
 
 
 				if(curX == 1 && curY == 0){ //facing east
 					Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
 					player.life--;
-				} else if(curX == -1 && curY == 0){ //facing west
-					Instantiate(shot, new Vector3(shotSpawn.position.x-2f, shotSpawn.position.y, shotSpawn.position.z), Quaternion.Euler(0, 180, 0));
+				} else if(curX == 1 && curY == 1){ //facing north east
+					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y+1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 45));
 					player.life--;
 				} else if(curX == 0 && curY == 1){ //facing north
 					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y+1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 90));
 					player.life--;
+				} else if(curX == -1 && curY == 1){ //facing north west
+					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y+1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 135));
+					player.life--;
+				} else if(curX == -1 && curY == 0){ //facing west
+					Instantiate(shot, new Vector3(shotSpawn.position.x-2f, shotSpawn.position.y, shotSpawn.position.z), Quaternion.Euler(0, 0, 180));
+					player.life--;
+				} else if(curX == -1 && curY == -1){ //facing south west
+					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y+1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 225));
+					player.life--;
 				} else if(curX == 0 && curY == -1){ //facing south
 					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y-1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 270));
 					player.life--;
+				}  else if(curX == 1 && curY == -1){ //facing south east
+					Instantiate(shot, new Vector3(shotSpawn.position.x-1f, shotSpawn.position.y-1f, shotSpawn.position.z), Quaternion.Euler(0, 0, 315));
+					player.life--;
 				}
-			//}
+
+			}
+		
 		}
 	}
 

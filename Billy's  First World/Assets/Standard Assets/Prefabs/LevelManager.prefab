@@ -41,6 +41,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentCheckpoint: {fileID: 0}
   player: {fileID: 0}
+  flowerEnemy: {fileID: 137966, guid: 3f99a3e6014ec46a2b43e51dc19121eb, type: 2}
+  respawns:
+  - {fileID: 0}
+  - {fileID: 0}
+  enemies: []
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
