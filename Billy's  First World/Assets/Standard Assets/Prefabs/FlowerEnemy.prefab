@@ -8,9 +8,10 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 407394}
-  - 212: {fileID: 21278698}
   - 61: {fileID: 6104444}
   - 114: {fileID: 11475560}
+  - 212: {fileID: 21230698}
+  - 95: {fileID: 9569876}
   m_Layer: 8
   m_Name: FlowerEnemy
   m_TagString: Enemy
@@ -43,8 +44,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.5999999, y: -27.2000008, z: -.5}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: 9.82999992, y: -10.0299997, z: -.5}
+  m_LocalScale: {x: 1.63026917, y: 1.72366774, z: 2}
   m_Children:
   - {fileID: 470920}
   m_Father: {fileID: 0}
@@ -56,7 +57,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 140026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0104339123, y: -.187880516, z: -.25}
+  m_LocalPosition: {x: .0399999991, y: .119999997, z: -.25}
   m_LocalScale: {x: .5, y: .400000095, z: .25}
   m_Children: []
   m_Father: {fileID: 407394}
@@ -105,6 +106,23 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1.27999997, y: 1.27999997}
+--- !u!95 &9569876
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137966}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6134313db0d354d2d9ccc9b2a5807c11, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11475560
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -129,10 +147,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shot: {fileID: 111682, guid: a6ef4b57438424a45975db7f2488780d, type: 2}
-  fireRate: .600000024
-  coolDown: 0
+  fireRate: .899999976
+  coolDown: 3
   range: 10
---- !u!212 &21278698
+  currentCoolDown: 0
+--- !u!212 &21230698
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -154,10 +173,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1783731295
+  m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a87888daf21324b5a89030916f8d3d59, type: 3}
-  m_Color: {r: 1, g: .244431227, b: .244431227, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 1ed9547ebda6e4139889f63a2320cd58, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

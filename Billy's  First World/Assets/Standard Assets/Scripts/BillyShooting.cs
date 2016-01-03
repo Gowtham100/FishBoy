@@ -20,7 +20,7 @@ public class BillyShooting : MonoBehaviour {
 	
 	void Start()
 	{
-		fireRate = 0.5f;
+
 
 		anim = GetComponent<Animator>();
 		player = GetComponent<Controller3> ();

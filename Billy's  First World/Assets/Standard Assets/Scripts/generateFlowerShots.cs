@@ -11,12 +11,16 @@ public class generateFlowerShots : MonoBehaviour {
 	
 	private float nextFire;
 	private GameObject player;
+	public float currentCoolDown;
+
+	private Animator anim;
 
 
 	void Start () {
-		coolDown = 3;
-		range = 10;
+
+		anim = GetComponentInParent<Animator> ();
 		player = GameObject.FindGameObjectWithTag ("Player");
+		currentCoolDown = coolDown;
 
 	}
 
@@ -24,9 +28,10 @@ public class generateFlowerShots : MonoBehaviour {
 	void Update () {
 		float distance = Vector2.Distance (player.transform.position, this.transform.position); //find distance between player and enemy
 
-		if (Time.time > nextFire && coolDown != 0 && distance < range) {
-			coolDown--;
+		if (Time.time > nextFire && currentCoolDown != 0 && distance < range) {
+			currentCoolDown--;
 			nextFire = Time.time + fireRate;
+			anim.SetBool ("isShooting", true);
 
 			// get the direction of shooting
 			Vector3 vectorToTarget = player.transform.position - this.transform.position;
@@ -37,9 +42,10 @@ public class generateFlowerShots : MonoBehaviour {
 			Instantiate (shot, this.transform.position, direction);
 
 
-		}else if (Time.time > nextFire && coolDown == 0) {
+		}else if (Time.time > nextFire && currentCoolDown == 0) {
+			anim.SetBool ("isShooting", false);
 			nextFire = Time.time + fireRate;
-			coolDown = 3;
+			currentCoolDown = coolDown;
 		}
 
 
