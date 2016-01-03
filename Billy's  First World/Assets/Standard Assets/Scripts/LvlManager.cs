@@ -7,7 +7,7 @@ public class LvlManager : MonoBehaviour {
 	public GameObject currentCheckpoint;
 	public Controller3 player;
 
-	public GameObject flowerEnemy;
+	public GameObject flowerEnemy; //update this as more enemies are created
 
 	public GameObject[] respawns;
 	public GameObject[] enemies;
@@ -15,8 +15,7 @@ public class LvlManager : MonoBehaviour {
 	void Start () {
 		
 		player = FindObjectOfType<Controller3> ();
-		respawns = GameObject.FindGameObjectsWithTag("Respawn");
-		enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
 		
 	}
 	
@@ -26,6 +25,9 @@ public class LvlManager : MonoBehaviour {
 	}
 	
 	public void RespawnPlayer(){
+		respawns = GameObject.FindGameObjectsWithTag("Respawn");
+		enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
 		Debug.Log ("Respawn here!!!!");
 		player.transform.position = currentCheckpoint.transform.position;
 

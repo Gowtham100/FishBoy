@@ -31,7 +31,7 @@ GameObject:
   - 114: {fileID: 11476894}
   m_Layer: 8
   m_Name: flowerShot
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeb61a0f8090d4f90a2989146a8c6bee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 111682, guid: cde83a8a9030c4ed3b2f12e0debb22b1, type: 2}
+  shot: {fileID: 111682, guid: a6ef4b57438424a45975db7f2488780d, type: 2}
   fireRate: .600000024
   coolDown: 0
   range: 10
@@ -164,7 +164,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: shot
+      value: 
+      objectReference: {fileID: 111682, guid: a6ef4b57438424a45975db7f2488780d, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 137966}
