@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: grass-soil-t-UL
+  m_Name: corner-tree
   m_Shader: {fileID: 4800000, guid: 32c02043a93c8c94ea38514a6cd1ec32, type: 3}
   m_ShaderKeywords: PIXELSNAP_ON
   m_LightmapFlags: 5
@@ -19,7 +19,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 9f30e77b75738e24a8df992e469d1269, type: 3}
+          m_Texture: {fileID: 2800000, guid: 82e6f5eb4c9a28f40be214de6adb67d2, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
