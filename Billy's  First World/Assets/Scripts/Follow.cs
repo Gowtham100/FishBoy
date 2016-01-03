@@ -1,15 +1,50 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[System.Serializable]
+public class Boundary {
+	//create a separate class to make the code useable
+	public float xMin, xMax, yMin, yMax;
+}
+
 public class Follow : MonoBehaviour {
-    GameObject character;
+    
+	Transform player;
+	Transform bound;
+
+	public float speed;
+	public Boundary boundary;
+	public Camera camera;
+	
+
 	// Use this for initialization
 	void Start () {
-        character = GameObject.Find("Billy");
+		player = GameObject.FindGameObjectWithTag ("Player").GetComponent<Transform>();
+		bound = GameObject.FindGameObjectWithTag ("Boundary").GetComponent<Transform>();
+		camera = GetComponent<Camera> ();
+
+		boundary.xMin = 13f;
+		boundary.yMax = -8f;
+
+
+		boundary.xMax = bound.position.x * 2 - 14f; //50
+		boundary.yMin = bound.position.y * 2 + 5f;  //-45
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        transform.position = new Vector3(character.transform.position.x, character.transform.position.y, -20);
+
+		transform.position = new Vector3 
+			(
+				Mathf.Clamp (player.transform.position.x, boundary.xMin, boundary.xMax), 
+				Mathf.Clamp (player.transform.position.y, boundary.yMin, boundary.yMax),
+				-20f
+			);
+	
+
 	}
+
+
+
+
 }
