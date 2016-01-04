@@ -10,12 +10,12 @@ public class boarCharge : MonoBehaviour {
 
 	private GameObject player;
 	private Animator anim;
-	Transform boar;
+
 
 
 	// Use this for initialization
 	void Start () {
-		boar = GetComponent<Transform> ();
+
 		anim = GetComponent<Animator> ();
 		player = GameObject.FindGameObjectWithTag ("Player");
 		state = "Idle";

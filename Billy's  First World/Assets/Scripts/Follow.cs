@@ -14,14 +14,14 @@ public class Follow : MonoBehaviour {
 
 	public float speed;
 	public Boundary boundary;
-	public Camera camera;
+
 	
 
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player").GetComponent<Transform>();
 		bound = GameObject.FindGameObjectWithTag ("Boundary").GetComponent<Transform>();
-		camera = GetComponent<Camera> ();
+
 
 		boundary.xMin = 13f;
 		boundary.yMax = -8f;

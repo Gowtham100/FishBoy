@@ -13,6 +13,8 @@ GameObject:
   - 61: {fileID: 6114882}
   - 114: {fileID: 11496186}
   - 114: {fileID: 11467170}
+  - 50: {fileID: 5022998}
+  - 61: {fileID: 6165686}
   m_Layer: 8
   m_Name: BoarEnemy
   m_TagString: Enemy
@@ -27,11 +29,27 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159266}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.29325485, y: -12.8353863, z: .5}
+  m_LocalPosition: {x: -.300000012, y: 9.28999996, z: .5}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5022998
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159266}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &6114882
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -42,9 +60,22 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: .0798950195, y: .00532646198}
+  m_Offset: {x: .0407290719, y: .0298053753}
   serializedVersion: 2
-  m_Size: {x: .732361972, y: .644990563}
+  m_Size: {x: 1.10444474, y: 1.2422806}
+--- !u!61 &6165686
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159266}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 1.90734863e-06, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.51000011, y: .890000045}
 --- !u!95 &9575908
 Animator:
   serializedVersion: 3
@@ -76,7 +107,7 @@ MonoBehaviour:
   range: 10
   state: 
   speed: 9
-  damage: 1
+  damage: 2
 --- !u!114 &11496186
 MonoBehaviour:
   m_ObjectHideFlags: 1
