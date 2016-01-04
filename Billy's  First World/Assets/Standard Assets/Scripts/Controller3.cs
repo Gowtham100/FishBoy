@@ -4,6 +4,8 @@ using System.Collections;
 public class Controller3 : MonoBehaviour {
 
 	Animator anim;
+	LvlManager levelmanager;
+
 	public GameObject bubble;
 	public float maxSpeed = 0.0005f;
 	public float radius = 1.5f;  //radius of bubble
@@ -17,6 +19,7 @@ public class Controller3 : MonoBehaviour {
 	void Start () {
 
 		anim = GetComponent<Animator>();
+		levelmanager = FindObjectOfType<LvlManager> ();
 
 		enableControl = true;
 	
@@ -48,6 +51,13 @@ public class Controller3 : MonoBehaviour {
 	
 	}
 
+	public void checkDeath(){
+		if(life <= 0){
+			playDeadAnim();
+			Invoke("respawn",2.5f); //respawn
+		}
+	}
+	
 	public void playDeadAnim(){
 		enableControl = false;
 		anim.SetBool ("isDying", true);
@@ -58,10 +68,12 @@ public class Controller3 : MonoBehaviour {
 	}
 
 	public void respawn(){
+		levelmanager.RespawnAll();
 		life = 50;
 		initBubble ();
 		anim.SetBool ("isDying", false);
 		enableControl = true;
 	}
 	
+
 }

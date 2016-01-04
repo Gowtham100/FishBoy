@@ -11,7 +11,7 @@ public class generateFlowerShots : MonoBehaviour {
 	
 	private float nextFire;
 	private GameObject player;
-	public float currentCoolDown;
+	private float currentCoolDown;
 
 	private Animator anim;
 

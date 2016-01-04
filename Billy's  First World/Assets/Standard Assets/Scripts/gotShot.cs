@@ -34,11 +34,8 @@ public class gotShot : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D other)
 	{
-		if(player.life <= 0){
-			player.playDeadAnim();
-			Invoke("respawn",2.5f); //respawn
+		player.checkDeath ();
 
-		}
 
 		if(other.tag == "enemybullet"){
 			bubble.transform.localScale = 
@@ -46,8 +43,5 @@ public class gotShot : MonoBehaviour {
 		}
 	}
 
-	void respawn(){
-		levelmanager.RespawnPlayer ();
-	}
 
 }

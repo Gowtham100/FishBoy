@@ -8,6 +8,7 @@ public class LvlManager : MonoBehaviour {
 	public Controller3 player;
 
 	public GameObject flowerEnemy; //update this as more enemies are created
+	public GameObject boarEnemy;
 
 	public GameObject[] respawns;
 	public GameObject[] enemies;
@@ -24,12 +25,12 @@ public class LvlManager : MonoBehaviour {
 		
 	}
 	
-	public void RespawnPlayer(){
+	public void RespawnAll(){
 		respawns = GameObject.FindGameObjectsWithTag("Respawn");
 		enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
 		//Debug.Log ("Respawn here!!!!");
-		player.respawn ();
+		//player.respawn ();
 		player.transform.position = playerRespawn.transform.position;
 
 		for (int i = 0; i < enemies.Length; i ++) {
@@ -39,6 +40,8 @@ public class LvlManager : MonoBehaviour {
 		for(int i = 0 ; i < respawns.Length; i ++){
 			if (respawns[i].GetComponent<Checkpoints>().type.Equals("Flower")){
 				Instantiate(flowerEnemy, respawns[i].transform.position, respawns[i].transform.rotation);
+			} else if (respawns[i].GetComponent<Checkpoints>().type.Equals("Boar")){
+				Instantiate(boarEnemy, respawns[i].transform.position, respawns[i].transform.rotation);
 			}
 		}
 

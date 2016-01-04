@@ -65,6 +65,7 @@ public class BillyShooting : MonoBehaviour {
 					player.life--;
 				}
 
+				player.checkDeath();
 			}
 		
 		}
