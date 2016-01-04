@@ -6,6 +6,7 @@ public class boarCharge : MonoBehaviour {
 	public float range;
 	public string state;
 	public float speed;
+	public int damage;
 
 	private GameObject player;
 	private Animator anim;
@@ -60,6 +61,15 @@ public class boarCharge : MonoBehaviour {
 	
 	}
 
+
+	void OnTriggerEnter2D (Collider2D other)
+	{
+		if (other.tag == "Player") {
+			player.GetComponent<Controller3>().life -= damage;
+		}
+		
+		
+	}
 
 
 

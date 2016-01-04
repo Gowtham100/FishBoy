@@ -15,7 +15,7 @@ GameObject:
   - 114: {fileID: 11467170}
   m_Layer: 8
   m_Name: BoarEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159266}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.4900017, y: -15.8100004, z: 0}
+  m_LocalPosition: {x: 1.29325485, y: -12.8353863, z: .5}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -73,10 +73,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7e646035856c43b3bed2667cad4acd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 7
-  chargeTime: 0
+  range: 10
   state: 
-  speed: 0
+  speed: 9
+  damage: 1
 --- !u!114 &11496186
 MonoBehaviour:
   m_ObjectHideFlags: 1
