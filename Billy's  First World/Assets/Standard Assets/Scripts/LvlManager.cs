@@ -25,12 +25,12 @@ public class LvlManager : MonoBehaviour {
 		
 	}
 	
-	public void RespawnPlayer(){
+	public void RespawnAll(){
 		respawns = GameObject.FindGameObjectsWithTag("Respawn");
 		enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
 		//Debug.Log ("Respawn here!!!!");
-		player.respawn ();
+		//player.respawn ();
 		player.transform.position = playerRespawn.transform.position;
 
 		for (int i = 0; i < enemies.Length; i ++) {
