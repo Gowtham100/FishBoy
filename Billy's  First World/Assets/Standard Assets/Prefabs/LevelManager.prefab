@@ -39,9 +39,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba5f887f1db7312488c5729cd49f3d1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentCheckpoint: {fileID: 0}
+  playerRespawn: {fileID: 0}
   player: {fileID: 0}
   flowerEnemy: {fileID: 137966, guid: 3f99a3e6014ec46a2b43e51dc19121eb, type: 2}
+  boarEnemy: {fileID: 159266, guid: 0aae24e4c6ca84d0984600a0fd1359a9, type: 2}
   respawns:
   - {fileID: 0}
   - {fileID: 0}

@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: flower petal attack_
+  m_Name: flower enemy attack
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -19,71 +19,71 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: .0833333358
+    - time: .055555556
       value: {fileID: 21300002, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: .166666672
+    - time: .111111112
       value: {fileID: 21300004, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: .25
+    - time: .166666672
       value: {fileID: 21300006, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: .333333343
+    - time: .222222224
       value: {fileID: 21300008, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: .416666657
+    - time: .277777791
       value: {fileID: 21300010, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: .5
+    - time: .333333343
       value: {fileID: 21300012, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: .583333313
+    - time: .388888896
       value: {fileID: 21300014, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: .666666687
+    - time: .444444448
       value: {fileID: 21300016, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: .75
+    - time: .5
       value: {fileID: 21300018, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: .833333313
+    - time: .555555582
       value: {fileID: 21300020, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: .916666687
+    - time: .611111104
       value: {fileID: 21300022, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 1
+    - time: .666666687
       value: {fileID: 21300024, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 1.08333337
+    - time: .722222209
       value: {fileID: 21300026, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 1.16666663
+    - time: .777777791
       value: {fileID: 21300028, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 1.25
+    - time: .833333313
       value: {fileID: 21300030, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 1.33333337
+    - time: .888888896
       value: {fileID: 21300032, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 1.41666663
+    - time: .944444418
       value: {fileID: 21300034, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 1.5
+    - time: 1
       value: {fileID: 21300036, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 1.58333337
+    - time: 1.05555558
       value: {fileID: 21300038, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 1.66666663
+    - time: 1.11111116
       value: {fileID: 21300040, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 1.75
+    - time: 1.16666663
       value: {fileID: 21300042, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 1.83333337
+    - time: 1.22222221
       value: {fileID: 21300044, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 1.91666663
+    - time: 1.27777779
       value: {fileID: 21300046, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 2
+    - time: 1.33333337
       value: {fileID: 21300048, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 2.08333325
+    - time: 1.38888884
       value: {fileID: 21300050, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 2.16666675
+    - time: 1.44444442
       value: {fileID: 21300052, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 2.25
+    - time: 1.5
       value: {fileID: 21300054, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 2.33333325
+    - time: 1.55555558
       value: {fileID: 21300056, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 2.41666675
+    - time: 1.61111116
       value: {fileID: 21300058, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
-    - time: 2.5
+    - time: 1.66666663
       value: {fileID: 21300060, guid: c43710807b3454f02a3dbdc8c84fe6e4, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 12
+  m_SampleRate: 18
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -131,7 +131,7 @@ AnimationClip:
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: 2.58333325
+    m_StopTime: 1.72222221
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

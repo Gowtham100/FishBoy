@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 541b4cdd6f8ee4ee58d52f518fb5e26c
+timeCreated: 1451854516
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: charge south_0
+    21300002: charge south_1
+    21300004: charge south_2
+    21300006: charge south_3
+    21300008: charge south_4
+    21300010: charge south_5
+    21300012: charge south_6
+    21300014: charge south_7
+    21300016: charge south_8
+    21300018: charge south_9
+    21300020: charge south_10
+    21300022: charge south_11
+    21300024: charge south_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: charge south_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 21
+        width: 85
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charge south_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 21
+        width: 84
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charge south_2
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 21
+        width: 85
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charge south_3
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 21
+        width: 85
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charge south_4
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 21
+        width: 85
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charge south_5
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 21
+        width: 86
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charge south_6
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 21
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charge south_7
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 21
+        width: 86
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charge south_8
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 21
+        width: 88
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charge south_9
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 21
+        width: 90
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charge south_10
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 21
+        width: 89
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charge south_11
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 21
+        width: 86
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charge south_12
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 21
+        width: 89
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
